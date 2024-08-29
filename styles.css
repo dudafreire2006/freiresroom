@@ -1,0 +1,62 @@
+body {
+    color: white;
+    background-color: rgb(255, 195, 223);
+    margin: 0px;
+    font-family: "Mooli", sans-serif;
+}
+
+header{
+    border-bottom: solid 2px rgb(255, 56, 155);
+    padding: 20px;
+    font-size: 32px;
+    color:rgb(255, 56, 155)
+}
+
+section{
+    background-color: rgb(255, 195, 223);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content:center;
+}
+
+.chamada-texto  {
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;    
+}
+
+img{
+    height: 200px;
+}
+
+h2{
+    margin-bottom: 0%;
+}
+
+.caixa-musicas{
+    padding-bottom: 0%;
+}
+
+.musicas{
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding: color pink;
+}
+
+.categoria-videos{
+    display:flex;
+    overflow-x: auto; 
+    gap: 10px;
+   }
+
+.categoria-videos img{
+    opacity:0.5;
+}
